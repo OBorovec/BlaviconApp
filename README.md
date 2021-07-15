@@ -18,3 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 ## Project organization
 
 - [Lib structure](https://morioh.com/p/99b14cbf048e)
+- [Flutter scalable folder files structure](https://medium.com/flutter-community/flutter-scalable-folder-files-structure-8f860faafebd)
