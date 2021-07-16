@@ -21,6 +21,14 @@ class MyApp extends StatelessWidget {
       theme: state.themeData,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      // home: SplashScreen.navigate(
+      //   name: 'assets/flare_anims/WitcherWolf.flr',
+      //   next: (context) => HomePage(),
+      //   until: () => Future.delayed(Duration(seconds: 5)),
+      //   startAnimation: 'fadeIn',
+      //   loopAnimation: 'progress',
+      //   endAnimation: 'fadeOut',
+      // ),
       initialRoute: '/',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
