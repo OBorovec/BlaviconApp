@@ -1,4 +1,5 @@
 import 'package:blavicon_app/bloc/theme/theme_bloc.dart';
+import 'package:blavicon_app/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -20,14 +21,7 @@ class MyApp extends StatelessWidget {
       theme: state.themeData,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('A App Bar'),
-        ),
-        body:  Center(
-          child: Text(AppLocalizations.of(context)!.hello),
-        ),
-      ),
+      home: const HomePage()
     );
   }
 }
