@@ -5,6 +5,6 @@ import 'package:flutter/material.dart';
 enum AppTheme { light, dark }
 
 final Map<AppTheme, ThemeData> appThemeData = {
-  AppTheme.light: LightTheme,
-  AppTheme.dark: DarkTheme
+  AppTheme.light: lightTheme,
+  AppTheme.dark: darkTheme
 };

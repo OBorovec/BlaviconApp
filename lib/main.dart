@@ -1,6 +1,7 @@
 import 'package:blavicon_app/bloc/theme/theme_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,12 +18,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       theme: state.themeData,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          title: Text('A App Bar'),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body:  Center(
+          child: Text(AppLocalizations.of(context)!.hello),
         ),
       ),
     );
