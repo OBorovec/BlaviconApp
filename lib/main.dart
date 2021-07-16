@@ -1,5 +1,5 @@
 import 'package:blavicon_app/bloc/theme/theme_bloc.dart';
-import 'package:blavicon_app/screens/home.dart';
+import 'package:blavicon_app/route_generator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => ThemeBloc(),
-      child: BlocBuilder<ThemeBloc, ThemeState>(builder: _buildWithTheme),
+      child:BlocBuilder<ThemeBloc, ThemeState>(builder: _buildWithTheme),
     );
   }
 
@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
       theme: state.themeData,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const HomePage()
+      initialRoute: '/',
+      onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
 }
