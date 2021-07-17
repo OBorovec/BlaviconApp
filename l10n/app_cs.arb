@@ -2,5 +2,7 @@
   "hello": "Ahoj!",
   "@appBars": "",
   "appBarHome": "BlaviconApp",
-  "appBarSetting": "Nastaveni"
+  "appBarSetting": "Nastaveni",
+  "@settingPage": "",
+  "settingTheme": "Tmavy vzhled"
 }

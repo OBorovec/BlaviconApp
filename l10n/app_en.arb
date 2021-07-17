@@ -2,5 +2,7 @@
   "hello": "Hello!",
   "@appBars": "",
   "appBarHome": "BlaviconApp",
-  "appBarSetting": "Settings"
+  "appBarSetting": "Settings",
+  "@settingPage": "",
+  "settingTheme": "Dark theme"
 }
