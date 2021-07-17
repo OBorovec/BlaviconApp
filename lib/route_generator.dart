@@ -2,17 +2,20 @@ import 'package:blavicon_app/screens/home.dart';
 import 'package:blavicon_app/screens/settings.dart';
 import 'package:flutter/material.dart';
 
+const String homeRoute = '/';
+const String settingRoute = '/setting';
+
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     // Getting arguments passed in while calling Navigator.pushNamed
     final args = settings.arguments;
 
     switch (settings.name) {
-      case '/':
+      case homeRoute:
         return MaterialPageRoute(
           builder: (_) => HomePage()
         );
-      case '/second':
+      case settingRoute:
         return MaterialPageRoute(
           builder: (_) => SettingPage(),
         );

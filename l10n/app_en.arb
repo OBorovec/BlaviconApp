@@ -1,3 +1,6 @@
 {
-  "hello": "Hello!"
+  "hello": "Hello!",
+  "@appBars": "",
+  "appBarHome": "BlaviconApp",
+  "appBarSetting": "Settings"
 }
