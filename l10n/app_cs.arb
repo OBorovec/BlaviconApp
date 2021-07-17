@@ -2,6 +2,12 @@
   "hello": "Ahoj!",
   "@appBars": "",
   "appBarHome": "BlaviconApp",
+  "appBarCosplay": "Cosplay",
+  "appBarCatering": "Stravovani",
+  "appBarDegustation": "Degustace",
+  "appBarDivisions": "Armady",
+  "appBarMaps": "Mapy",
+  "appBarProgram": "Program",
   "appBarSetting": "Nastaveni",
   "@settingPage": "",
   "settingTheme": "Tmavy vzhled"

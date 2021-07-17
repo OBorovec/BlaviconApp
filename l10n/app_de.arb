@@ -2,6 +2,12 @@
   "hello": "Hallo!",
   "@appBars": "",
   "appBarHome": "BlaviconApp",
+  "appBarCosplay": "TBD",
+  "appBarCatering": "TBD",
+  "appBarDegustation": "TBD",
+  "appBarDivisions": "TBD",
+  "appBarMaps": "TBD",
+  "appBarProgram": "TBD",
   "appBarSetting": "Einstellung",
   "@settingPage": "",
   "settingTheme": "Dunkle theme"
