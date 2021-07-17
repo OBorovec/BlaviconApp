@@ -1,4 +1,4 @@
-package com.example.blavicon_app
+package com.oborovec.blaviconapp
 
 import io.flutter.embedding.android.FlutterActivity
 

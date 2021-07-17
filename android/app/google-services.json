@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "963571986762",
+    "firebase_url": "https://blaviconapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "blaviconapp",
+    "storage_bucket": "blaviconapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963571986762:android:3d60e11f03cd45aac451b3",
+        "android_client_info": {
+          "package_name": "com.oborovec.blaviconapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963571986762-cen1u39b5ju1fo52tvom2ribi2in57st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA416ODm_143mCS6U37MYVZULf3BhrrTKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963571986762-cen1u39b5ju1fo52tvom2ribi2in57st.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "963571986762-j90brgrj611dhg9a3of194onhkf7gld1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cz.oborovec.blaviconapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

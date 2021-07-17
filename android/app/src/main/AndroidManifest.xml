@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.blavicon_app">
+    package="com.oborovec.blaviconapp">
    <application
         android:label="BlaviconApp"
         android:icon="@mipmap/ic_launcher">
